@@ -34,8 +34,8 @@ var HelloApp = React.createClass({
         <h1>Поиск: {this.state.text}</h1>
         <input onChange={this.handleChange} value={this.state.text} />
         <button onClick={this.handleSubmit}>Искать</button>
-        <div class="row">
-          <div class="col-xs-6">
+        <div className="row">
+          <div className="col-xs-6">
             {this.state.items.map(createItem)}
           </div>
         </div>

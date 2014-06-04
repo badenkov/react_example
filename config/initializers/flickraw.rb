@@ -1,2 +1,2 @@
-FlickRaw.api_key = configus.f.key
-FlickRaw.shared_secret = configus.f.secret
+FlickRaw.api_key = configus.flickr_config.key
+FlickRaw.shared_secret = configus.flickr_config.secret
